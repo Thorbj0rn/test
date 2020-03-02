@@ -15,18 +15,8 @@ const paramsIniState = [    {
                                 required: false
                             }
                         ]
-const productsIniState = [
-    {
-        idProduct: 0,
-        idParam: 0,
-        value: 'Мясо'
-    },
-    {
-        idProduct: 0,
-        idParam: 1,
-        value: 80
-    }
-]
+const productsIniState = []
+
 
 
 export function params(state = paramsIniState, action){
